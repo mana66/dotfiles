@@ -38,6 +38,10 @@ zinit light zdharma/fast-syntax-highlighting
 # Ctrl+r でコマンド履歴を検索
 zinit light zdharma/history-search-multi-word
 
+# dir_colorsの設定
+eval `dircolors .dircolors-solarized/dircolors.ansi-light`
+alias ls='ls -F --color=auto'
+
 # Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
