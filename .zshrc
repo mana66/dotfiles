@@ -29,6 +29,8 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 #
+#パスの設定
+export PATH=$PATH:$HOME/bin
 # 補完
 zinit light zsh-users/zsh-autosuggestions
 
@@ -48,3 +50,4 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 unset ZLE_RPROMPT_INDENT
+
